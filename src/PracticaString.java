@@ -47,7 +47,10 @@ public class PracticaString {
         int edad = 20;
         // Tiene que estar en orden, al final del formato. %s es para strings, %d es para enteros, y %f es para decimales.
         System.out.println(String.format("Hola mi nombre es, %s, y mi edad es %d ", nombres, edad));
-        System.out.printf("Hola mi nombre es, %s, y mi edad es %d ", nombres, edad); }
+        System.out.printf("Hola mi nombre es, %s, y mi edad es %d ", nombres, edad);
+        System.out.println();
+
+    }
 
 
 
