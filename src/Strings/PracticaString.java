@@ -1,3 +1,5 @@
+package Strings;
+
 public class PracticaString {
 
 
@@ -21,7 +23,6 @@ public class PracticaString {
         System.out.println("Esto es un String".toLowerCase().contains("esto es un string".toLowerCase())); // Devuelve true
         System.out.println(name.contains("illo")); // Devuelve true.
 
-
         //Equals
      /* .equals a diferencia de contains "equals" solo
      devuelve true si es exactamente (Compara contenido) igual al String a comparar */
@@ -30,7 +31,6 @@ public class PracticaString {
         System.out.println(name.equals("pepinillos")); // false
         // tambien esta la opción de ignorar las mayúsculas o minúsculas
         System.out.println(name.equalsIgnoreCase("pepinillos")); // true
-
 
         //Trim and Replace
         /* Trim hace que se eliminen los espacios en blanco
@@ -41,14 +41,13 @@ public class PracticaString {
         System.out.println(" Prueba de replace ".replace(" ", "0"));
         //Para usar replace afecta si son mayúsculas o minúsculas
 
-
         //Format
         String nombres = "Vicente";
         int edad = 20;
         // Tiene que estar en orden, al final del formato. %s es para strings, %d es para enteros, y %f es para decimales.
         System.out.println(String.format("Hola mi nombre es, %s, y mi edad es %d ", nombres, edad));
-        System.out.printf("Hola mi nombre es, %s, y mi edad es %d ", nombres, edad);
-        System.out.println();
+        System.out.printf("Hola mi nombre es, %s, y mi edad es %d " + "\n"+ "\n" , nombres, edad);
+
 
     }
 
